@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpack App</title>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+   <script type="text/javascript" src="mgjGraphicEditor.js?169850abdc79e8551a7e"></script>
+   <div id="editor" class="editor">
+    <div class="editor-top"></div>
+    <div class="editor-body">
+      <!-- 组件 -->
+      <div class="editor-modules">
+        <div class="item cur">Logo</div>
+        <div class="item">文字框</div>
+      </div>
+      <!-- 操作区 -->
+      <div class="editor-main"></div>
+      <!-- 属性配置 -->
+      <div class="editor-info"></div>
+    </div>
+   </div>  
+    <script>
+      let editor = document.querySelector('#editor')
+      const ge = MgjGraphicEditor(editor)
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.editor{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.editor-top{
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px #ccc solid;
+  box-shadow: 0 0 3px #ccc;
+}
+.editor-body{
+  height: calc(100vh - 40px);
+  display: flex;
+  justify-content: space-between;
+  background: #F7F7F7;
+}
+.editor-modules{
+  padding-top: 40px;
+  width: 206px;
+  display: flex;
+  justify-content: space-around;
+}
+.editor-modules .item{
+  width:79px;
+  height:29px;
+  line-height: 29px;
+  text-align: center;
+  background:rgba(255,255,255,1);
+  border-radius:2px;
+  border:0px solid rgba(151,151,151,1);
+  background:rgba(255,255,255,1);
+  font-size: 13px;
+  text
+}
+.editor-modules .item.cur{
+  box-shadow:0px 1px 5px 0px rgba(0,0,0,0.22);
+  border:1px solid rgba(125,42,127,1);
+}
+.editor-main{
+  background: #fff;
+  flex:1;
+}
+
+.editor-info{
+  width: 315px;
+}
